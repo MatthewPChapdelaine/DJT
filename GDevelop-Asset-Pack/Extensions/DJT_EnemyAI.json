@@ -1,0 +1,73 @@
+{
+  "author": "DJT Team",
+  "category": "AI",
+  "extensionNamespace": "DJT",
+  "fullName": "DJT Enemy AI",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "DJTEnemyAI",
+  "previewIconUrl": "",
+  "shortDescription": "Advanced enemy AI system with multiple behavior patterns",
+  "version": "1.0.0",
+  "description": "Enemy AI behaviors including:\n- Minions (fast, low HP)\n- Elites (armored, medium HP)\n- State machine (Idle, Patrol, Alert, Attack, Flee)\n- Attack telegraphing\n- Detection radius\n- Pathfinding support",
+  "tags": ["ai", "enemy", "combat", "behavior"],
+  "eventsBasedBehaviors": [
+    {
+      "description": "Base enemy AI behavior",
+      "fullName": "DJT Enemy AI",
+      "name": "DJTEnemyAI",
+      "objectType": "Sprite",
+      "propertyDescriptors": [
+        {
+          "value": "minion",
+          "type": "String",
+          "label": "Enemy Type",
+          "description": "minion, elite, or boss",
+          "name": "EnemyType"
+        },
+        {
+          "value": "100",
+          "type": "Number",
+          "label": "Max Health",
+          "description": "Maximum HP",
+          "name": "MaxHealth"
+        },
+        {
+          "value": "10",
+          "type": "Number",
+          "label": "Damage",
+          "description": "Damage dealt to player",
+          "name": "Damage"
+        },
+        {
+          "value": "300",
+          "type": "Number",
+          "label": "Detection Radius (px)",
+          "description": "Distance to detect player",
+          "name": "DetectionRadius"
+        },
+        {
+          "value": "150",
+          "type": "Number",
+          "label": "Move Speed (px/s)",
+          "description": "Movement speed",
+          "name": "MoveSpeed"
+        },
+        {
+          "value": "1.0",
+          "type": "Number",
+          "label": "Attack Rate (s)",
+          "description": "Time between attacks",
+          "name": "AttackRate"
+        },
+        {
+          "value": "0.5",
+          "type": "Number",
+          "label": "Telegraph Time (s)",
+          "description": "Wind-up time before attack",
+          "name": "TelegraphTime"
+        }
+      ]
+    }
+  ]
+}

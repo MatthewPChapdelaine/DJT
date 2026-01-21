@@ -1,0 +1,15 @@
+{
+  "author": "DJT Team",
+  "category": "UI",
+  "extensionNamespace": "DJT",
+  "fullName": "DJT HUD System",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "DJTHUD",
+  "previewIconUrl": "",
+  "shortDescription": "Complete HUD and UI system for platformer games",
+  "version": "1.0.0",
+  "description": "HUD system including:\n- Health bar display\n- Weapon selector with ammo\n- Mini-map\n- Score/points counter\n- Boss health bars\n- Dialogue boxes\n- Pause menu\n- Settings menu\n- Damage numbers\n- Screen effects (shake, freeze frames)",
+  "tags": ["ui", "hud", "interface", "menu"],
+  "eventsBasedBehaviors": []
+}

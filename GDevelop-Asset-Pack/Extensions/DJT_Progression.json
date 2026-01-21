@@ -1,0 +1,14 @@
+{
+  "author": "DJT Team",
+  "category": "Game Systems",
+  "extensionNamespace": "DJT",
+  "fullName": "DJT Progression System",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "DJTProgression",
+  "previewIconUrl": "",
+  "shortDescription": "Player progression, upgrades, and difficulty system",
+  "version": "1.0.0",
+  "description": "Progression mechanics including:\n- Hack Points currency\n- Upgrade system (HP, dash, weapon swap, etc.)\n- Hub world upgrade terminal\n- Difficulty modifiers (Easy, Normal, Hard, Nightmare)\n- Save/load system\n- Boss completion tracking\n- Collectible tracking",
+  "tags": ["progression", "upgrades", "difficulty", "save-system"]
+}

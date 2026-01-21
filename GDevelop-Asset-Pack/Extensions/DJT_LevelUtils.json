@@ -1,0 +1,14 @@
+{
+  "author": "DJT Team",
+  "category": "Level Design",
+  "extensionNamespace": "DJT",
+  "fullName": "DJT Level Utilities",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "DJTLevelUtils",
+  "previewIconUrl": "",
+  "shortDescription": "Level design utilities and prefab systems",
+  "version": "1.0.0",
+  "description": "Level design tools including:\n- Moving platforms\n- Crumbling blocks\n- Conveyor belts\n- Spike traps\n- Laser grids\n- Checkpoints\n- Secret areas\n- Environmental hazards\n- Platform behaviors",
+  "tags": ["level", "platformer", "hazards", "utilities"]
+}

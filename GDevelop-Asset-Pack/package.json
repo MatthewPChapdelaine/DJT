@@ -1,0 +1,16 @@
+{
+  "name": "djt-devious-jezebel-trickery-asset-pack",
+  "version": "1.0.0",
+  "description": "GDevelop 5 Asset Pack for DJT: Devious Jezebel Trickery - Modern Mega Man-inspired platformer mechanics",
+  "author": "DJT Team",
+  "license": "MIT",
+  "gdevelopVersion": "5.0.0",
+  "category": "Game Mechanics",
+  "tags": ["platformer", "megaman", "combat", "boss-battles", "weapons", "cyberpunk"],
+  "dependencies": {},
+  "extensionNamespace": "DJT",
+  "description_long": "Complete asset pack for building Modern Mega Man-inspired platformers. Includes player movement (wall-sliding, dashing, double-jump), weapon switching system, enemy AI behaviors, boss battle mechanics, HUD system, and progression system. Designed for the DJT: Devious Jezebel Trickery game but fully reusable for any platformer project.",
+  "iconUrl": "",
+  "previewImageUrls": [],
+  "tier": "community"
+}

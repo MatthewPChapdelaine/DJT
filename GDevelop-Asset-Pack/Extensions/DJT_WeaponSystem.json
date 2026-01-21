@@ -1,0 +1,52 @@
+{
+  "author": "DJT Team",
+  "category": "Combat",
+  "extensionNamespace": "DJT",
+  "fullName": "DJT Weapon System",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "DJTWeaponSystem",
+  "previewIconUrl": "",
+  "shortDescription": "Complete weapon switching and ammo management system",
+  "version": "1.0.0",
+  "description": "Mega Man-inspired weapon system with:\n- Multiple weapon types\n- Weapon switching (E/Q or number keys)\n- Ammo management\n- Charge shots\n- Melee attacks\n- Cooldown system\n- Weapon-specific effects",
+  "tags": ["combat", "weapons", "shooting", "megaman"],
+  "eventsBasedBehaviors": [
+    {
+      "description": "Manages player weapon inventory and switching",
+      "fullName": "DJT Weapon Manager",
+      "name": "DJTWeaponManager",
+      "objectType": "Sprite",
+      "propertyDescriptors": [
+        {
+          "value": "0.3",
+          "type": "Number",
+          "label": "Base Fire Rate (s)",
+          "description": "Time between shots",
+          "name": "FireRate"
+        },
+        {
+          "value": "1.0",
+          "type": "Number",
+          "label": "Charge Time (s)",
+          "description": "Time to fully charge a shot",
+          "name": "ChargeTime"
+        },
+        {
+          "value": "50",
+          "type": "Number",
+          "label": "Melee Damage",
+          "description": "Damage for melee attacks",
+          "name": "MeleeDamage"
+        },
+        {
+          "value": "80",
+          "type": "Number",
+          "label": "Melee Range (px)",
+          "description": "Range of melee attack",
+          "name": "MeleeRange"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "author": "DJT Team",
+  "category": "Movement",
+  "extensionNamespace": "DJT",
+  "fullName": "DJT Player Movement",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "DJTPlayerMovement",
+  "previewIconUrl": "",
+  "shortDescription": "Advanced platformer movement with wall-sliding, dashing, and double-jump",
+  "version": "1.0.0",
+  "description": "Provides complete movement mechanics for platformer characters including:\n- Variable jump height (tap vs hold)\n- Double jump\n- Dash with cooldown\n- Wall slide and wall jump\n- Sprint capability\n- Input buffering\n- Momentum-based physics",
+  "tags": ["movement", "platformer", "character", "physics"],
+  "eventsBasedBehaviors": [
+    {
+      "description": "Advanced platformer movement behavior with wall-slide, dash, and double-jump",
+      "fullName": "DJT Platformer Movement",
+      "name": "DJTPlatformerMovement",
+      "objectType": "Sprite",
+      "eventsFunctions": [],
+      "propertyDescriptors": [
+        {
+          "value": "250",
+          "type": "Number",
+          "label": "Max Run Speed (px/s)",
+          "description": "Maximum horizontal movement speed",
+          "name": "MaxRunSpeed"
+        },
+        {
+          "value": "375",
+          "type": "Number",
+          "label": "Sprint Speed (px/s)",
+          "description": "Speed when sprinting (holding Shift)",
+          "name": "SprintSpeed"
+        },
+        {
+          "value": "600",
+          "type": "Number",
+          "label": "Gravity (px/s²)",
+          "description": "Downward acceleration",
+          "name": "Gravity"
+        },
+        {
+          "value": "450",
+          "type": "Number",
+          "label": "Jump Speed (px/s)",
+          "description": "Initial upward velocity when jumping",
+          "name": "JumpSpeed"
+        },
+        {
+          "value": "200",
+          "type": "Number",
+          "label": "Dash Distance (px)",
+          "description": "Distance covered during dash",
+          "name": "DashDistance"
+        },
+        {
+          "value": "0.5",
+          "type": "Number",
+          "label": "Dash Cooldown (s)",
+          "description": "Time between dashes",
+          "name": "DashCooldown"
+        },
+        {
+          "value": "80",
+          "type": "Number",
+          "label": "Wall Slide Speed (px/s)",
+          "description": "Descent speed when sliding on wall",
+          "name": "WallSlideSpeed"
+        },
+        {
+          "value": "yes",
+          "type": "Boolean",
+          "label": "Enable Double Jump",
+          "description": "Allow second jump in mid-air",
+          "name": "DoubleJumpEnabled"
+        },
+        {
+          "value": "5",
+          "type": "Number",
+          "label": "Input Buffer Frames",
+          "description": "Frames to remember inputs for responsive controls",
+          "name": "InputBufferFrames"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "author": "DJT Team",
+  "category": "Combat",
+  "extensionNamespace": "DJT",
+  "fullName": "DJT Boss Battle System",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "DJTBossBattle",
+  "previewIconUrl": "",
+  "shortDescription": "Multi-phase boss battle system with attack patterns",
+  "version": "1.0.0",
+  "description": "Boss battle mechanics including:\n- Multi-phase system (up to 5 phases)\n- Complex attack patterns\n- Phase transitions at HP thresholds\n- Boss intro/defeat dialogue\n- Weapon drops\n- Arena hazards\n- Boss health bar display",
+  "tags": ["boss", "combat", "megaman", "battle"],
+  "eventsBasedBehaviors": [
+    {
+      "description": "Multi-phase boss battle behavior",
+      "fullName": "DJT Boss Battle",
+      "name": "DJTBossBattle",
+      "objectType": "Sprite",
+      "propertyDescriptors": [
+        {
+          "value": "Generic Boss",
+          "type": "String",
+          "label": "Boss Name",
+          "description": "Display name of the boss",
+          "name": "BossName"
+        },
+        {
+          "value": "250",
+          "type": "Number",
+          "label": "Max Health",
+          "description": "Total boss HP",
+          "name": "MaxHealth"
+        },
+        {
+          "value": "3",
+          "type": "Number",
+          "label": "Phase Count",
+          "description": "Number of phases (1-5)",
+          "name": "PhaseCount"
+        },
+        {
+          "value": "2.0",
+          "type": "Number",
+          "label": "Attack Delay (s)",
+          "description": "Time between attacks for counterplay",
+          "name": "AttackDelay"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "label": "Weapon Drop ID",
+          "description": "Which weapon to drop (0-6)",
+          "name": "WeaponDropID"
+        }
+      ]
+    }
+  ]
+}
