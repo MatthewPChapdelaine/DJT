@@ -290,7 +290,7 @@ See [LICENSE](LICENSE) file for details.
 
 ## 🙏 Credits
 
-**Created by:** DJT Team  
+**Created by:** Matthew P.Chapdelaine, using Grok and Github Codespaces.  
 **Design by:** @dd1_of_x  
 **Inspired by:** Mega Man series (Capcom)
 
@@ -307,7 +307,7 @@ See [LICENSE](LICENSE) file for details.
 - 📖 **Documentation:** See `/GDevelop-Asset-Pack/Documentation/`
 - 💬 **Discord:** [Coming Soon]
 - 🐛 **Issues:** [GitHub Issues](https://github.com/your-username/DJT/issues)
-- 📧 **Email:** support@djt-game.com
+- 📧 **Email:** mindblade.metaverse@gmail.com
 
 ### Stay Updated
 - ⭐ **Star this repo** to follow development
